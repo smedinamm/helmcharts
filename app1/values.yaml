@@ -1,8 +1,0 @@
-base-chart:
-  replicaCount: 2
-  nameOverride: app1
-  image:
-    repository: nginx
-    tag: "alpine"
-  service:
-    port: 8080
