@@ -33,7 +33,7 @@ jobs:
           helm package ${{ steps.vars.outputs.chart }}
           ls -lh
 
-      - name: Create GitHub Release
+/*      - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ github.ref_name }}
@@ -43,7 +43,7 @@ jobs:
             ${{ steps.vars.outputs.chart }}-*.tgz
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+*/
       - name: Publish to GitHub Pages (Helm repo)
         run: |
           git config user.name github-actions
