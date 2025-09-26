@@ -20,9 +20,10 @@ jobs:
       - name: Extract Chart and Version from Tag
         id: vars
         run: |
+          tree
           TAG_NAME=${GITHUB_REF##*/}
           echo "Tag recibido: $TAG_NAME"
-          CHART_NAME=$(echo $TAG_NAME | cut -d'-' -f1)
+          CHART_NAME=$(echo $TAG_NAME | cut -d'-' -f1-2)
           VERSION=$(echo $TAG_NAME | cut -d'-' -f3)
           echo "chart=$CHART_NAME" >> $GITHUB_OUTPUT
           echo "version=$VERSION" >> $GITHUB_OUTPUT
