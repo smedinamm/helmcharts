@@ -2,8 +2,10 @@ name: Release Helm Chart
 
 on:
   push:
-    tags:
-      - '*-chart-*'   # Ej: base-chart-1.0.0 o app1-chart-0.2.1
+    branches:
+      - main
+#    tags:
+#      - '*-chart-*'   # Ej: base-chart-1.0.0 o app1-chart-0.2.1
 
 jobs:
   release:
@@ -41,7 +43,7 @@ jobs:
           files: |
             ${{ steps.vars.outputs.chart }}-*.tgz
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish to GitHub Pages (Helm repo)
         run: |
