@@ -52,7 +52,7 @@ jobs:
           git config user.email github-actions@github.com
           git fetch origin main 
           git checkout main 
-          mv ../${{ steps.vars.outputs.chart }}-*.tgz .
+          mv ${{ steps.vars.outputs.chart }}-*.tgz .
           helm repo index . --url https://$GITHUB_REPOSITORY_OWNER.github.io/helm-charts --merge index.yaml
           git add .
           git commit -m "Publish ${{ steps.vars.outputs.chart }} v${{ steps.vars.outputs.version }}"
