@@ -1,33 +1,56 @@
-name: Release Charts
+name: Release Helm Chart
 
 on:
   push:
-    branches:
-      - main
+    tags:
+      - '*-chart-*'   # Ej: base-chart-1.0.0 o app1-chart-0.1.0
 
 jobs:
   release:
-    permissions:
-      contents: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
+        uses: actions/checkout@v4
 
-      - name: Configure Git
+      - name: Set up Helm
+        uses: azure/setup-helm@v4
+        with:
+          version: v3.14.4
+
+      - name: Extract Chart and Version from Tag
+        id: vars
         run: |
-          git config user.name "$GITHUB_ACTOR"
-          git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          TAG_NAME=${GITHUB_REF##*/}
+          echo "Tag recibido: $TAG_NAME"
+          CHART_NAME=$(echo $TAG_NAME | cut -d'-' -f1)
+          VERSION=$(echo $TAG_NAME | cut -d'-' -f3)
+          echo "chart=$CHART_NAME" >> $GITHUB_OUTPUT
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
 
-      - name: Install Helm
-        uses: azure/setup-helm@v3
+      - name: Package Helm Chart
+        run: |
+          helm package ${{ steps.vars.outputs.chart }}
+          ls -lh
 
-      - name: Run chart-releaser
-        uses: helm/chart-releaser-action@v1.6.0
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
         with:
-          skip_existing: true
-          packages_with_index: true
+          tag_name: ${{ github.ref_name }}
+          name: "Release ${{ steps.vars.outputs.chart }} v${{ steps.vars.outputs.version }}"
+          body_path: CHANGELOG.md
+          files: |
+            ${{ steps.vars.outputs.chart }}-*.tgz
         env:
-          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish to GitHub Pages (Helm repo)
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git fetch origin gh-pages
+          git checkout gh-pages
+          mv ../${{ steps.vars.outputs.chart }}-*.tgz .
+          helm repo index . --url https://$GITHUB_REPOSITORY_OWNER.github.io/helm-charts --merge index.yaml
+          git add .
+          git commit -m "Publish ${{ steps.vars.outputs.chart }} v${{ steps.vars.outputs.version }}"
+          git push origin gh-pages
