@@ -48,10 +48,10 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git fetch origin gh-pages
-          git checkout gh-pages
+          git fetch origin main 
+          git checkout main 
           mv ../${{ steps.vars.outputs.chart }}-*.tgz .
           helm repo index . --url https://$GITHUB_REPOSITORY_OWNER.github.io/helm-charts --merge index.yaml
           git add .
           git commit -m "Publish ${{ steps.vars.outputs.chart }} v${{ steps.vars.outputs.version }}"
-          git push origin gh-pages
+          git push origin main 
