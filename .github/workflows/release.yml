@@ -38,7 +38,7 @@ jobs:
         with:
           tag_name: ${{ github.ref_name }}
           name: "Release ${{ steps.vars.outputs.chart }} v${{ steps.vars.outputs.version }}"
-          body_path: CHANGELOG.md
+          #body_path: CHANGELOG.md
           files: |
             ${{ steps.vars.outputs.chart }}-*.tgz
         env:
