@@ -41,16 +41,16 @@ jobs:
           files: |
             ${{ steps.vars.outputs.chart }}-*.tgz
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
 
       - name: Publish to GitHub Pages (Helm repo)
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git fetch origin gh-pages
-          git checkout gh-pages
+          git config user.name santiago
+          git config user.email smedinamm@gmail.com
+          git fetch origin main
+          git checkout main
           mv ../${{ steps.vars.outputs.chart }}-*.tgz .
-          helm repo index . --url https://$GITHUB_REPOSITORY_OWNER.github.io/helm-charts --merge index.yaml
+          helm repo index . --url https://smedinamm.github.io/helmcharts --merge index.yaml
           git add .
           git commit -m "Publish ${{ steps.vars.outputs.chart }} v${{ steps.vars.outputs.version }}"
-          git push origin gh-pages
+          git push origin main
