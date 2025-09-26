@@ -1,6 +1,0 @@
-dependencies:
-- name: base-chart
-  repository: https://smedinamm.github.io/helmcharts
-  version: 1.0.0
-digest: sha256:b16bb3822ae76c5f3916d98c34d8f34e0ad9f608c75efcdbcdcbebd807ea7d1d
-generated: "2025-09-25T16:34:45.881434815-05:00"
