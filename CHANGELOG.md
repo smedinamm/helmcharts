@@ -11,3 +11,9 @@ El formato se basa en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/
 
  delete changelog file test 4
 
+## [1.0.14] - 2025-09-29
+
+### CHANGE
+
+-cambios
+
