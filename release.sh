@@ -72,10 +72,10 @@ fi
 
 TMP_FILE=$(mktemp)
 {
+  cat $CHANGELOG
   echo "## [${NEW_VERSION}] - ${DATE}"
   echo "- ${MESSAGE}"
   echo ""
-  cat $CHANGELOG
 } > $TMP_FILE
 mv $TMP_FILE $CHANGELOG
 
