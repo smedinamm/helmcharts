@@ -75,8 +75,7 @@ TMP_FILE=$(mktemp)
   cat $CHANGELOG
   echo "## [${NEW_VERSION}] - ${DATE}"
   echo -e "\n### ${MESSAGE}" | cut -d':' -f1
-  echo ""
-  echo -e "${MESSAGE}" | cut -d':' -f2 | awk '{print "-"$1}'
+  echo "- " && echo -e "${MESSAGE}" | cut -d':' -f2 
   echo ""
 } > $TMP_FILE
 mv $TMP_FILE $CHANGELOG
