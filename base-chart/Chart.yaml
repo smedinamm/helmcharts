@@ -1,4 +1,4 @@
 apiVersion: v2
 name: base-chart
-version: 0.0.3
+version: 1.0.2
 description: Plantillas base reutilizables para aplicaciones
