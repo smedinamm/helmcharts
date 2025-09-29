@@ -2,15 +2,15 @@ apiVersion: v1
 entries:
   base-chart:
   - apiVersion: v2
-    created: "2025-09-29T18:30:33.197192124Z"
+    created: "2025-09-29T18:34:08.674210638Z"
     description: Plantillas base reutilizables para aplicaciones
-    digest: b122e7329e79e265e15cad5c46dc6441e500c695b52097033fbae548f99691cb
+    digest: a9619b7103da4541e662880132c2e1c9315c268d960525cf487b3de7537656cb
     name: base-chart
     urls:
     - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.2.tgz
     version: 1.0.2
   - apiVersion: v2
-    created: "2025-09-29T18:30:33.196853892Z"
+    created: "2025-09-29T18:34:08.67397735Z"
     description: Plantillas base reutilizables para aplicaciones
     digest: 658c1880f6378bf6e072a5fe6997bce62ac23dcc7ce60e2153f2b7f3b0bdb247
     name: base-chart
@@ -18,7 +18,7 @@ entries:
     - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
-    created: "2025-09-29T18:30:33.196550975Z"
+    created: "2025-09-29T18:34:08.67350732Z"
     description: Plantillas base reutilizables para aplicaciones
     digest: d3b8460d212ceefaa7e95df907936392f1ec317623aed39baaf966b0948bd623
     name: base-chart
@@ -26,7 +26,7 @@ entries:
     - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v2
-    created: "2025-09-29T18:30:33.196257516Z"
+    created: "2025-09-29T18:34:08.673246301Z"
     description: Plantillas base reutilizables para aplicaciones
     digest: 0aff9ea1b7194c13fbd12e874d12b8baafd310a57f37e7c37295e4f50c2f59a8
     name: base-chart
@@ -34,11 +34,11 @@ entries:
     - https://smedinamm.github.io/helm-charts/charts/base-chart-0.0.3.tgz
     version: 0.0.3
   - apiVersion: v2
-    created: "2025-09-29T18:30:33.19592258Z"
+    created: "2025-09-29T18:34:08.672785678Z"
     description: Plantillas base reutilizables para aplicaciones
     digest: bf2566f7f4767400359942d79e1e604f895dedfae6245af783b2e3bbce4c23d2
     name: base-chart
     urls:
     - https://smedinamm.github.io/helm-charts/charts/base-chart-0.0.2.tgz
     version: 0.0.2
-generated: "2025-09-29T18:30:33.195424338Z"
+generated: "2025-09-29T18:34:08.67229546Z"
