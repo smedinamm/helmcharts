@@ -6,3 +6,7 @@ El formato se basa en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/
 
 
 
+## [1.0.12] - 2025-09-29
+### FIXED
+ delete changelog file test 3
+
