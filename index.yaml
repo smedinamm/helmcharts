@@ -2,7 +2,15 @@ apiVersion: v1
 entries:
   base-chart:
   - apiVersion: v2
-    created: "2025-09-29T22:05:32.428797833Z"
+    created: "2025-09-29T22:15:36.860815496Z"
+    description: Plantillas base reutilizables para aplicaciones
+    digest: 703e115f8bbba98169a5517c1d97f5b07f0b8cab6660ced95bdc2b58de04fca2
+    name: base-chart
+    urls:
+    - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.14.tgz
+    version: 1.0.14
+  - apiVersion: v2
+    created: "2025-09-29T22:15:36.860663944Z"
     description: Plantillas base reutilizables para aplicaciones
     digest: 8887ac7926f10e6c35c337981ddd906194519d7ed4185f622233e83ed197b1ba
     name: base-chart
@@ -10,7 +18,7 @@ entries:
     - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.13.tgz
     version: 1.0.13
   - apiVersion: v2
-    created: "2025-09-29T22:05:32.428558857Z"
+    created: "2025-09-29T22:15:36.860515387Z"
     description: Plantillas base reutilizables para aplicaciones
     digest: caa4deb6975f9187a47e6814cc92460bfd013d904ac921d9ad711bed5ecb76d4
     name: base-chart
@@ -18,7 +26,7 @@ entries:
     - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.12.tgz
     version: 1.0.12
   - apiVersion: v2
-    created: "2025-09-29T22:05:32.428328386Z"
+    created: "2025-09-29T22:15:36.860363795Z"
     description: Plantillas base reutilizables para aplicaciones
     digest: 28d8ec32d4e71be615b3c4de253cb6a324dca5d8a211a285994abd7c9cdc0a1e
     name: base-chart
@@ -26,7 +34,7 @@ entries:
     - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.10.tgz
     version: 1.0.10
   - apiVersion: v2
-    created: "2025-09-29T22:05:32.430887397Z"
+    created: "2025-09-29T22:15:36.861556668Z"
     description: Plantillas base reutilizables para aplicaciones
     digest: fe46f49295aca4cb0022027952c48eee83fcb6a1fe6db5988bc5f3cb13523e8e
     name: base-chart
@@ -34,7 +42,7 @@ entries:
     - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.9.tgz
     version: 1.0.9
   - apiVersion: v2
-    created: "2025-09-29T22:05:32.430424661Z"
+    created: "2025-09-29T22:15:36.861401759Z"
     description: Plantillas base reutilizables para aplicaciones
     digest: b338701c29fc0cc1b6710bcec94e35bff1b43747ea33429d52cbfc626b006bd3
     name: base-chart
@@ -42,7 +50,7 @@ entries:
     - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.8.tgz
     version: 1.0.8
   - apiVersion: v2
-    created: "2025-09-29T22:05:32.42996374Z"
+    created: "2025-09-29T22:15:36.861266096Z"
     description: Plantillas base reutilizables para aplicaciones
     digest: 05671265cec2c0d73ba63dea82d97e90ed2ac882a142fee27a4dd7fb75715a82
     name: base-chart
@@ -50,7 +58,7 @@ entries:
     - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.7.tgz
     version: 1.0.7
   - apiVersion: v2
-    created: "2025-09-29T22:05:32.429552733Z"
+    created: "2025-09-29T22:15:36.861127347Z"
     description: Plantillas base reutilizables para aplicaciones
     digest: 0395cac33c06cfe3699c76e5c88dedf58eac7dc995fd4af081b57bcbe2c48814
     name: base-chart
@@ -58,7 +66,7 @@ entries:
     - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.6.tgz
     version: 1.0.6
   - apiVersion: v2
-    created: "2025-09-29T22:05:32.429179135Z"
+    created: "2025-09-29T22:15:36.860958804Z"
     description: Plantillas base reutilizables para aplicaciones
     digest: 27c41c65756fa39172a83c847f888ac097869bc0b099a5b0ca54130055b9bb20
     name: base-chart
@@ -66,7 +74,7 @@ entries:
     - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.2.tgz
     version: 1.0.2
   - apiVersion: v2
-    created: "2025-09-29T22:05:32.428120037Z"
+    created: "2025-09-29T22:15:36.86020031Z"
     description: Plantillas base reutilizables para aplicaciones
     digest: 658c1880f6378bf6e072a5fe6997bce62ac23dcc7ce60e2153f2b7f3b0bdb247
     name: base-chart
@@ -74,7 +82,7 @@ entries:
     - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
-    created: "2025-09-29T22:05:32.427919783Z"
+    created: "2025-09-29T22:15:36.860020034Z"
     description: Plantillas base reutilizables para aplicaciones
     digest: d3b8460d212ceefaa7e95df907936392f1ec317623aed39baaf966b0948bd623
     name: base-chart
@@ -82,7 +90,7 @@ entries:
     - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v2
-    created: "2025-09-29T22:05:32.427715221Z"
+    created: "2025-09-29T22:15:36.859867389Z"
     description: Plantillas base reutilizables para aplicaciones
     digest: 0aff9ea1b7194c13fbd12e874d12b8baafd310a57f37e7c37295e4f50c2f59a8
     name: base-chart
@@ -90,11 +98,11 @@ entries:
     - https://smedinamm.github.io/helm-charts/charts/base-chart-0.0.3.tgz
     version: 0.0.3
   - apiVersion: v2
-    created: "2025-09-29T22:05:32.427520157Z"
+    created: "2025-09-29T22:15:36.859697974Z"
     description: Plantillas base reutilizables para aplicaciones
     digest: bf2566f7f4767400359942d79e1e604f895dedfae6245af783b2e3bbce4c23d2
     name: base-chart
     urls:
     - https://smedinamm.github.io/helm-charts/charts/base-chart-0.0.2.tgz
     version: 0.0.2
-generated: "2025-09-29T22:05:32.42720579Z"
+generated: "2025-09-29T22:15:36.859407332Z"
