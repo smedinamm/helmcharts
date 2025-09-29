@@ -75,7 +75,7 @@ TMP_FILE=$(mktemp)
   cat $CHANGELOG
   echo "## [${NEW_VERSION}] - ${DATE}"
   echo -e "\n### ${MESSAGE}" | cut -d':' -f1
-  echo "\n- $(echo -e "$MESSAGE" | cut -d':' -f2- | xargs)" 
+  echo -e "\n- $(echo -e "$MESSAGE" | cut -d':' -f2- | xargs)" 
   echo ""
 } > $TMP_FILE
 mv $TMP_FILE $CHANGELOG
