@@ -66,7 +66,7 @@ rm -f ${CHART}/Chart.yaml.bak
 # --- Actualizar CHANGELOG.md ---
 echo "📝 Actualizando CHANGELOG.md..."
 if [ ! -f "$CHANGELOG" ]; then
-  echo "# Changelog" > $CHANGELOG
+  echo "# Changelog \n\nTodas las versiones notables de este proyecto se documentarán en este archivo.\n\nEl formato se basa en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/),y este proyecto sigue el [Versionamiento Semántico](https://semver.org/lang/es/).\n\n" > $CHANGELOG
   echo "" >> $CHANGELOG
 fi
 
