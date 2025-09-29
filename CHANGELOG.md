@@ -23,3 +23,8 @@ El formato se basa en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/
 - 
  cambios realizados en la impresion de salida changelog.md
 
+## [1.0.16] - 2025-09-29
+
+### CHANGE
+\n- cambios realizados en la impresion de salida changelog.md
+
