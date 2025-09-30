@@ -40,3 +40,9 @@ El formato se basa en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/
 
 - apuntamiento de index.yaml al nueva ruta de repositorio
 
+## [1.0.19] - 2025-09-30
+
+### CHANGE
+
+- modificacion en values base-chart
+
