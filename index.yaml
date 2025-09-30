@@ -7,7 +7,7 @@ entries:
     digest: 48db51c5ca49357c55ac3cc560d75f5fd3e0c169dad495b8e867bb7b94362ca2
     name: base-chart
     urls:
-    - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.17.tgz
+    - https://smedinamm.github.io/helmcharts/charts/base-chart-1.0.17.tgz
     version: 1.0.17
   - apiVersion: v2
     created: "2025-09-29T22:32:40.3197327Z"
@@ -15,7 +15,7 @@ entries:
     digest: 5f8837a55f3ecb3b2eb4c85ff211d90fd82d21f0fef70746c3e178a6106ca0fc
     name: base-chart
     urls:
-    - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.16.tgz
+    - https://smedinamm.github.io/helmcharts/charts/base-chart-1.0.16.tgz
     version: 1.0.16
   - apiVersion: v2
     created: "2025-09-29T22:32:40.31960462Z"
@@ -23,7 +23,7 @@ entries:
     digest: a6437e9cda1b1b352b14491677780dbf9af930d4bcdea1a5657720258416a01e
     name: base-chart
     urls:
-    - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.15.tgz
+    - https://smedinamm.github.io/helmcharts/charts/base-chart-1.0.15.tgz
     version: 1.0.15
   - apiVersion: v2
     created: "2025-09-29T22:32:40.319474236Z"
@@ -31,7 +31,7 @@ entries:
     digest: 703e115f8bbba98169a5517c1d97f5b07f0b8cab6660ced95bdc2b58de04fca2
     name: base-chart
     urls:
-    - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.14.tgz
+    - https://smedinamm.github.io/helmcharts/charts/base-chart-1.0.14.tgz
     version: 1.0.14
   - apiVersion: v2
     created: "2025-09-29T22:32:40.319342489Z"
@@ -39,7 +39,7 @@ entries:
     digest: 8887ac7926f10e6c35c337981ddd906194519d7ed4185f622233e83ed197b1ba
     name: base-chart
     urls:
-    - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.13.tgz
+    - https://smedinamm.github.io/helmcharts/charts/base-chart-1.0.13.tgz
     version: 1.0.13
   - apiVersion: v2
     created: "2025-09-29T22:32:40.319209941Z"
@@ -47,7 +47,7 @@ entries:
     digest: caa4deb6975f9187a47e6814cc92460bfd013d904ac921d9ad711bed5ecb76d4
     name: base-chart
     urls:
-    - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.12.tgz
+    - https://smedinamm.github.io/helmcharts/charts/base-chart-1.0.12.tgz
     version: 1.0.12
   - apiVersion: v2
     created: "2025-09-29T22:32:40.319059299Z"
@@ -55,7 +55,7 @@ entries:
     digest: 28d8ec32d4e71be615b3c4de253cb6a324dca5d8a211a285994abd7c9cdc0a1e
     name: base-chart
     urls:
-    - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.10.tgz
+    - https://smedinamm.github.io/helmcharts/charts/base-chart-1.0.10.tgz
     version: 1.0.10
   - apiVersion: v2
     created: "2025-09-29T22:32:40.320590848Z"
@@ -63,7 +63,7 @@ entries:
     digest: fe46f49295aca4cb0022027952c48eee83fcb6a1fe6db5988bc5f3cb13523e8e
     name: base-chart
     urls:
-    - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.9.tgz
+    - https://smedinamm.github.io/helmcharts/charts/base-chart-1.0.9.tgz
     version: 1.0.9
   - apiVersion: v2
     created: "2025-09-29T22:32:40.320461435Z"
@@ -71,7 +71,7 @@ entries:
     digest: b338701c29fc0cc1b6710bcec94e35bff1b43747ea33429d52cbfc626b006bd3
     name: base-chart
     urls:
-    - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.8.tgz
+    - https://smedinamm.github.io/helmcharts/charts/base-chart-1.0.8.tgz
     version: 1.0.8
   - apiVersion: v2
     created: "2025-09-29T22:32:40.320329609Z"
@@ -79,7 +79,7 @@ entries:
     digest: 05671265cec2c0d73ba63dea82d97e90ed2ac882a142fee27a4dd7fb75715a82
     name: base-chart
     urls:
-    - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.7.tgz
+    - https://smedinamm.github.io/helmcharts/charts/base-chart-1.0.7.tgz
     version: 1.0.7
   - apiVersion: v2
     created: "2025-09-29T22:32:40.320194986Z"
@@ -87,7 +87,7 @@ entries:
     digest: 0395cac33c06cfe3699c76e5c88dedf58eac7dc995fd4af081b57bcbe2c48814
     name: base-chart
     urls:
-    - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.6.tgz
+    - https://smedinamm.github.io/helmcharts/charts/base-chart-1.0.6.tgz
     version: 1.0.6
   - apiVersion: v2
     created: "2025-09-29T22:32:40.320062117Z"
@@ -95,7 +95,7 @@ entries:
     digest: 27c41c65756fa39172a83c847f888ac097869bc0b099a5b0ca54130055b9bb20
     name: base-chart
     urls:
-    - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.2.tgz
+    - https://smedinamm.github.io/helmcharts/charts/base-chart-1.0.2.tgz
     version: 1.0.2
   - apiVersion: v2
     created: "2025-09-29T22:32:40.318887256Z"
@@ -103,7 +103,7 @@ entries:
     digest: 658c1880f6378bf6e072a5fe6997bce62ac23dcc7ce60e2153f2b7f3b0bdb247
     name: base-chart
     urls:
-    - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.1.tgz
+    - https://smedinamm.github.io/helmcharts/charts/base-chart-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
     created: "2025-09-29T22:32:40.31869161Z"
@@ -111,7 +111,7 @@ entries:
     digest: d3b8460d212ceefaa7e95df907936392f1ec317623aed39baaf966b0948bd623
     name: base-chart
     urls:
-    - https://smedinamm.github.io/helm-charts/charts/base-chart-1.0.0.tgz
+    - https://smedinamm.github.io/helmcharts/charts/base-chart-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v2
     created: "2025-09-29T22:32:40.318548402Z"
@@ -119,7 +119,7 @@ entries:
     digest: 0aff9ea1b7194c13fbd12e874d12b8baafd310a57f37e7c37295e4f50c2f59a8
     name: base-chart
     urls:
-    - https://smedinamm.github.io/helm-charts/charts/base-chart-0.0.3.tgz
+    - https://smedinamm.github.io/helmcharts/charts/base-chart-0.0.3.tgz
     version: 0.0.3
   - apiVersion: v2
     created: "2025-09-29T22:32:40.318391217Z"
@@ -127,6 +127,6 @@ entries:
     digest: bf2566f7f4767400359942d79e1e604f895dedfae6245af783b2e3bbce4c23d2
     name: base-chart
     urls:
-    - https://smedinamm.github.io/helm-charts/charts/base-chart-0.0.2.tgz
+    - https://smedinamm.github.io/helmcharts/charts/base-chart-0.0.2.tgz
     version: 0.0.2
 generated: "2025-09-29T22:32:40.318092037Z"
