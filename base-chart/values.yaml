@@ -11,5 +11,5 @@ service:
 nameOverride: ""
 
 resources:
-  request:
+  requests:
     cpu: 500m
