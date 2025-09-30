@@ -34,3 +34,9 @@ El formato se basa en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/
 
 - cambios realizados en la impresion de salida changelog.md
 
+## [1.0.18] - 2025-09-30
+
+### CHANGE
+
+- apuntamiento de index.yaml al nueva ruta de repositorio
+
