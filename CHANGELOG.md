@@ -46,3 +46,9 @@ El formato se basa en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/
 
 - modificacion en values base-chart
 
+## [1.0.20] - 2025-10-07
+
+### added
+
+- add memory request reference in deployment template
+
