@@ -19,8 +19,10 @@ if [ $# -lt 2 ]; then
 fi
 
 BUMP_TYPE=$1
+echo $BUMP_TYPE
 shift
 MESSAGE="$*"
+echo $MESSAGE
 
 # --- Obtener versión actual desde Chart.yaml ---
 CURRENT_VERSION=$(grep '^version:' ${CHART}/Chart.yaml | awk '{print $2}')
