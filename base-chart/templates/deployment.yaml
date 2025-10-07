@@ -22,3 +22,4 @@ spec:
           resources:
             requests: 
               cpu: {{ .Values.resources.requests.cpu }}
+              memory: {{ .Values.resources.requests.memory }}

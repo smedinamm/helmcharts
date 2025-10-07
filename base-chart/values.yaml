@@ -13,3 +13,4 @@ nameOverride: ""
 resources:
   requests:
     cpu: 500m
+    memory: 256Mi
