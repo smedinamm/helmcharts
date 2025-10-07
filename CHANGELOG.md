@@ -58,3 +58,9 @@ El formato se basa en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/
 
 - add memory request reference in deployment template
 
+## [1.0.22] - 2025-10-07
+
+### change
+
+- add cpu limit reference in deployment template
+
